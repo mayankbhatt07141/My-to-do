@@ -1,0 +1,34 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.input-box{
+    width: 500px;
+    height: 50px;
+    outline: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.add-button{
+    margin-left: 10px;
+    width: 70px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(154, 154, 228);
+    color: aliceblue;
+    border: none;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+
+.todo-list-container{
+    margin-top: 100px;
+}
