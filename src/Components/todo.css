@@ -1,9 +1,10 @@
 .todo{
-    border: 2px solid rgb(186, 161, 33);;
+    border: 2px solid rgb(186, 161, 33);
     border-radius: 13px;
     display: flex;
     margin-top: 3px;
     height: 60px;
+    margin: 5px;;
 }
 
 .todo > .item {
@@ -27,14 +28,5 @@
 }
 .delete-todo :hover{
     cursor: pointer;
+    background-color: rgb(122, 122, 224);;
 }
-
-/* .add-button{
-    margin-left: 10px;
-    width: 70px;
-    
-    border-radius: 10px;
-    background-color: rgb(154, 154, 228);
-    color: aliceblue;
-    border: none;
-} */

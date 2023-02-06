@@ -1,0 +1,53 @@
+
+.outer{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-container{
+   border:  2px solid rgb(186, 161, 33);
+   border-radius: 3px;
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-boxes{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-box-css{
+    height: 5vh;
+    margin: 15px;
+    width: 20vw;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 2px solid rgb(154, 154, 228); 
+}
+.button-login{
+    margin-top: 15px;
+    height: 45px;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border-radius: 3px;
+    border: 0px;
+    background-color:  rgb(154, 154, 228);
+}
+.button-login:hover{
+    cursor: pointer;
+    background-color: rgb(122, 122, 224);
+}
+.signup-link{
+    margin-top: 15px;
+    color:rgb(162, 151, 151)
+}

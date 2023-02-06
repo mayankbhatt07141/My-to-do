@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(154, 154, 228);
+    height: 10vh;
+    font-size: 20px;
+}
+.header > div{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.header-links{
+    display: flex;
+    /* flex-direction: ; */
+    justify-content: flex-end;
+}
+.li-css{
+    list-style: none;
+    padding: 15px;
+    color: white;
+    
+}
+.header>div>img{
+    width: 50px;
+}
+.email-in-header{
+    color:white;
+    padding-left: 5px;
+}
